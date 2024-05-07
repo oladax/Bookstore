@@ -1,0 +1,87 @@
+.shopmain {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.shopmain-container {}
+
+.home-container {
+    padding-top: 1.5rem;
+    background-color: #effafa;
+    transition: 12s ease-in;
+}
+
+.home-container .home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-intro h1 {
+    font-size: 4.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+.home-intro p {
+    color: #333;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6rem;
+    width: 100%;
+    max-width: 500px;
+    ;
+}
+
+.home-intro button {
+    background-color: rgba(24, 23, 23, 0.883);
+    color: white;
+    border-radius: 4px;
+    text-transform: unset;
+    margin-top: 20px;
+    padding: 13px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 2ms ease-in-out;
+}
+
+.home-intro button:hover {
+    background-color: #d7425c;
+    color: white;
+    border-radius: 4px;
+    text-transform: unset;
+    margin-top: 20px;
+    padding: 13px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.Img-con img {
+    width: 100%;
+    max-width: 609px;
+    height: 80vh;
+    object-fit:cover ;
+}
+
+.shop-container{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+
+}
+
+
+:root{
+--swiper-navigation-size: 21px;
+}

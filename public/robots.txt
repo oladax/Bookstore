@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+cart color #effafa
+icons  #343333
+https://odour-demo.myshopify.com/cdn/shop/files/01_slider_image.png?v=1614298669

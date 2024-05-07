@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding-top: 1rem;
+}
+
+.navbar-container {
+  width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo-container {
+      display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.logo-container img {
+      width: 45px;
+        height: 45px;
+        object-fit: cover;
+        cursor: pointer;
+}
+
+.logo-container h3{
+ padding-top: 2rem;
+ font-family: 'tangerine', sans-serif;
+ font-size: 28px;
+ cursor: pointer;
+ margin-left: -10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-left: 22px;
+  margin-right: 22px;
+  cursor: pointer;
+  font-family: "JetBrains Mono", Sans-serif;
+  line-height: 1px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #343333;
+  font-style: normal;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+.searchbox {
+  display: flex;
+}
+
+.searchbox li {
+  display: inline-block;
+  list-style: none;
+}
+
+.searchbox li .searchbar {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+
+
+.searchbox li .shopping {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  margin-left: 20px;
+  cursor: pointer;
+}
